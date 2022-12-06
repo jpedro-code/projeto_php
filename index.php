@@ -37,7 +37,6 @@
         <li class="nav-item">
         <a class="nav-link" href="?page=quemsomos">Quem somos</a>
         </li>
-        <button type="button" class="btn btn-primary">Login</button>
       </ul>
     </div>
    </div>
