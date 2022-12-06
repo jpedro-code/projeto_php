@@ -7,3 +7,5 @@ $mensagem = $_POST['mensagem'];
 
 $sql = "INSERT INTO `mensagens` (`email`, `assunto`, `mensagem`) VALUES 
 ('{$email}', '{$assunto}', '{$mensagem}')";
+$res = $conn->query($sql);
+header("location: index.php");
